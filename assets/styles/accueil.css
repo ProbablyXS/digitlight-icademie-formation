@@ -10,16 +10,13 @@
   flex-direction: column;
 }
 
-/*             HEADER END             */
-
-
 /* ITEMS */
 
 .container {
   margin-right: 214px;
   display: flex;
-  overflow-y: auto;
   align-items: center;
+  overflow-x: hidden;
   flex-wrap: wrap;
   justify-content: center;
   align-content: first baseline;
