@@ -1,0 +1,37 @@
+.statsItems {
+  height: 0px;
+  color: #00000094;
+  margin-left: 4%;
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-weight: bold;
+  position: relative;
+}
+
+.statsItems span {
+  margin: 20px;
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  .statsItems {
+    color: #00000094;
+    display: flex;
+    margin-top: 24px;
+    font-size: min(max(13px, 3vw), 20px);
+    margin-right: 9%;
+    width: 100%;
+    font-weight: bold;
+    align-items: center;
+  }
+
+  .statsItems span {
+    margin: auto;
+    text-align: center;
+  }
+  
+}
