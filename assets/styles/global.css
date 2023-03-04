@@ -43,7 +43,12 @@ section::-webkit-scrollbar-thumb:hover {
 
 /* Hide scrollbar x for breadcrumb */
 ul::-webkit-scrollbar {
-  background: transparent;
+  display: none;
+}
+
+/* Hide scrollbar x,y for leftnav */
+div::-webkit-scrollbar {
+  display: none;
 }
 
 /* FOR FIREFOX ONLY */
